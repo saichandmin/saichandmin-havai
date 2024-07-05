@@ -1,0 +1,48 @@
+{
+  "airport": {
+    "id": 145,
+    "icao_code": "VIAG",
+    "iata_code": "AGR",
+    "name": "Agra Airport / Agra Air Force Station",
+    "type": "medium_airport",
+    "latitude_deg": 27.157683,
+    "longitude_deg": 77.960942,
+    "elevation_ft": 551,
+    "address": {
+      "city": {
+        "id": 436,
+        "name": "Agra",
+        "country_id": 76,
+        "is_active": true,
+        "lat": 27.18,
+        "long": 78.02
+      },
+      "country": {
+        "id": 76,
+        "name": "India",
+        "country_code_two": "IN",
+        "country_code_three": "IND",
+        "mobile_code": 91,
+        "continent_id": 1
+      }
+    }
+  },
+  "name": "coding-assignment-1",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
